@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 1080;
+  background-image: url(../image/Web\ design\ and\ development\ vector\ isometric\ illustrations_\ web\ design\ development\ concept\ programming\ language\ program\ code\ big\ data\ processing\ on\ laptop\ screen.\ Vector\ illustration);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.method-signin {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 100px 400px 50px;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+  /* background-image: url(../image/Web\ design\ and\ development\ vector\ isometric\ illustrations_\ web\ design\ development\ concept\ programming\ language\ program\ code\ big\ data\ processing\ on\ laptop\ screen.\ Vector\ illustration); */
+  background-size: cover;
+  object-fit: cover;
+}
+.form-input {
+ padding: 0;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
+}
+.form-input input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 50px 0;
+  font-size: 25px; 
+}
+.icon a {
+  color: white;
+  text-align: center;
+}
+.fa-google:hover {
+  color: mediumspringgreen;
+  font-size: 30px;
+}
+.fa-facebook:hover {
+  color: mediumspringgreen;
+  font-size: 30px;
+}
+.fa-microsoft:hover {
+  color: mediumspringgreen;
+  font-size: 30px;
+}
+#signin {
+  width: 265px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  background-color: blue;
+}
+.verify {
+  font-size: 16px;
+  color: white;
+}
+.space {
+  font-size: 18px;
+  padding: 10px;
+  cursor: text;
+}
+@media only screen and (max-width: 768px) {
+  .method-signin{
+    width: 100%;
+    margin: -100px;
+  }
+  .form-input {
+    width: 50%;
+    margin: -100px;
+  }
+}
